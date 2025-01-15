@@ -37,7 +37,7 @@ export default function Navbar() {
         </div>
 
         <ul className={`navigation${isMenuOpen ? "open" : ""}`}>
-          <li className="home nav-link" onClick={toggleMenu}>
+          <li className="home nav-link">
             <svg
               className="svg-nav"
               xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@ export default function Navbar() {
               HOME
             </a>
           </li>
-          <li className="about nav-link" onClick={toggleMenu}>
+          <li className="about nav-link" >
             <svg
               className="svg-nav"
               xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ export default function Navbar() {
               ABOUT
             </a>
           </li>
-          <li className="skills nav-link" onClick={toggleMenu}>
+          <li className="skills nav-link">
             <svg
               className="svg-nav"
               xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ export default function Navbar() {
               SKILLS
             </a>
           </li>
-          <li className="projects nav-link" onClick={toggleMenu}>
+          <li className="projects nav-link" >
             <svg
               className="svg-nav"
               xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ export default function Navbar() {
               PROJECTS
             </a>
           </li>
-          <li className="contacts nav-link" onClick={toggleMenu}>
+          <li className="contacts nav-link" >
             <svg
               className="svg-nav"
               xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +113,7 @@ export default function Navbar() {
             >
               <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.297 18.297 0 0 0-6.207-1.69A18.297 18.297 0 0 0 5.87 15.396c-1.176 1.031-2.458.83-3.322-.33l-.885-1.394a1.75 1.75 0 0 1-.315-1.494z" />
             </svg>
-            <a href="#contacts" rel="noopener noreferrer">
+            <a href="#contact" rel="noopener noreferrer">
               CONTACTS
             </a>
           </li>
