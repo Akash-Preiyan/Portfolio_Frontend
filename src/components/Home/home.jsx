@@ -48,7 +48,7 @@ export default function Home() {
       </section>
 
       <section className='home-right'>
-        <img src={ProfilePic} alt="Akash Preiyan" />
+        <img id='profilepic' src={ProfilePic} alt="Akash Preiyan" />
       </section>
     </div>
   );
