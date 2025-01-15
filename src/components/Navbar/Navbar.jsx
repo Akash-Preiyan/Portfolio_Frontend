@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className={`nav ${isScrolled ? "scrolled" : ""}`}>
+      <nav className={`nav${isScrolled ? "scrolled" : ""}`}>
         <a className="logo" href="/" rel="noopener noreferrer">
           <h2>AKASH PREIYAN</h2>
         </a>
